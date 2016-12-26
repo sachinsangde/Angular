@@ -1,0 +1,10 @@
+<h1>Demo Example</h1>
+<hr>
+<div>
+  <input type="button" class = "btn btn-default" value="batman" name="BatMan" (click)="onCartoonClicked('batman')">
+  <input type="button" class = "btn btn-default" name="spiderman" value="Spiderman" (click)="onCartoonClicked('spiderman')" >
+  <input type="button" class = "btn btn-default" name="ironman" value="Ironman" (click)="onCartoonClicked('ironman')" >
+</div>
+<div>
+  <img [src]="clickedCartoon" class="img-responsive" alt="magic" />
+</div>
